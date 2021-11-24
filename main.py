@@ -1,8 +1,9 @@
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication
-from PyQt5.QtGui import QPainter, QColor
-from PyQt5 import uic
 from random import randint
+
+from PyQt5 import uic
+from PyQt5.QtGui import QColor, QPainter
+from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
 class GitYellowCircles(QMainWindow):
@@ -27,6 +28,3 @@ if __name__ == "__main__":
     git_yellow_circles = GitYellowCircles()
     git_yellow_circles.show()
     sys.exit(app.exec())
-
-
-
